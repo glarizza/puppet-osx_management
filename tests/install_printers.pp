@@ -1,0 +1,1 @@
+include osx_management::install_printers

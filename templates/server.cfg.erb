@@ -1,0 +1,25 @@
+topicprefix = /topic/
+main_collective = mcollective
+collectives = mcollective
+libdir = /usr/libexec/mcollective
+logfile = /var/log/mcollective.log
+loglevel = debug
+daemonize = 0
+identity = <%= @hostname %>
+
+# Plugins
+securityprovider = psk
+plugin.psk = <%= plugin_psk %>
+
+connector = stomp
+plugin.stomp.pool.size = 1
+plugin.stomp.pool.host1 = <%= stomp_host %>
+plugin.stomp.pool.port1 = 61613
+plugin.stomp.pool.user1 = mcollective
+plugin.stomp.pool.password1 = <%= stomp_pool_password %>
+plugin.stomp.pool.ssl1 = true
+plugin.stomp.base64 = true
+
+# Facts
+factsource = yaml
+plugin.yaml = /etc/mcollective/facts.yaml

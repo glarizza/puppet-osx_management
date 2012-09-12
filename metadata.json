@@ -1,0 +1,62 @@
+{
+  "description": "Module used in the 8/28/2012 Webinar on Mac Management.",
+  "checksums": {
+    "tests/msoffice.pp": "b4b012cfb4b6d08e6aa1104ab389b503",
+    "manifests/munki_install.pp": "b292d8951c9b3b94abc7f912cce28fc1",
+    "manifests/munki_repo.pp": "d15cbb5c6d722ba6b521c0a2a986fb86",
+    "tests/macauth_sysprefs.pp": "0efdcdf1be96cf21b6e762aea23d0ac4",
+    "tests/macauth_printeraccess.pp": "2beba163ea5ee8c82b6e6d3649bc3506",
+    "tests/install_printers.pp": "f8385f90e899490e26191892b6981829",
+    "manifests/params.pp": "ba10fd5add4a7d02c3808f59ebd9b1e7",
+    "manifests/init.pp": "47d89c7022a1a091d92f97ed6d17cfc8",
+    "manifests/add_local_user.pp": "a9d03dc5e168603c0b00fc79369e10f8",
+    "tests/munki_install.pp": "2b5fb04b73ef78f2e7fe9c7803e6e224",
+    "manifests/firefox.pp": "9fa5c41d3db8f935495ebd925c7d0356",
+    "files/Xerox_Phaser_8560MFP.ppd": "ea4c8a874fdf1e967236e84d49332c79",
+    "tests/add_local_user.pp": "92fea094c0de850e2baf68bea2431236",
+    "templates/munki-prefs.erb": "edb34599c21f6aecc04c0cea65895e6a",
+    "manifests/macauth_sysprefs.pp": "26ac488138d723e1fcae27fc61a0be12",
+    "manifests/macauth_printeraccess.pp": "ec75b66b25436ea8b3f0aae2cc7cb6d9",
+    "manifests/macauth_datetime.pp": "abbdb127c9b1df785301117a817644cb",
+    "files/auto_master.conf": "0588f657a8c5486687725ea8aa1e5aac",
+    "tests/init.pp": "0b442c7751c607ef5d561be7e577c713",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "README": "9d138941f224538ace9fbc7da795b92d",
+    "manifests/macauth_dvdregion.pp": "5f87c0ef82f197ba8cf5232059dfa2b8",
+    "manifests/msoffice.pp": "7d94bca3e09adcb7fc772f3dffcf7d96",
+    "manifests/add_admin_user.pp": "b2d1935a32d2b041fa408a1bcb2c0c67",
+    "tests/macauth_datetime.pp": "f787cb82fa683d440944bf523e01a771",
+    "tests/add_admin_user.pp": "e4fe5ae869b0a7b0a88eb3cc9e14ad22",
+    "tests/munki_repo.pp": "bdfe46d222f524dcd51bf4c52d28f905",
+    "tests/macauth_dvdregion.pp": "00ca298580088e3f0561b31b1f7fc761",
+    "tests/firefox.pp": "02209c97dba6aceab8245d1530954026",
+    "templates/etc-exports.erb": "beacf8c05b446db1ed16775788011802",
+    "manifests/install_printers.pp": "ab4927542e9e4ac673f45b3c4ed10c21",
+    "Modulefile": "96216de21d9c8f966aff81c8ce459f00",
+    "files/nfs-puppetlabs.conf": "9c15ca69ca1eb42c7424a28f998d4a89"
+  },
+  "summary": "Module for common OS X Management Tasks",
+  "dependencies": [
+    {
+      "name": "mosen/cups",
+      "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "puppetlabs/apache",
+      "version_requirement": ">= 0.4.0"
+    },
+    {
+      "name": "puppetlabs/vcsrepo",
+      "version_requirement": ">= 0.0.4"
+    }
+  ],
+  "author": "Chris Barker and Gary Larizza",
+  "version": "0.1.0",
+  "source": "http://forge.puppetlabs.com/glarizza/osx_management",
+  "types": [
+
+  ],
+  "license": "Apache License, Version 2.0",
+  "name": "glarizza-osx_management",
+  "project_page": "http://forge.puppetlabs.com/glarizza/osx_management"
+}
