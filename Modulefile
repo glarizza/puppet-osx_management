@@ -1,5 +1,5 @@
 name    'glarizza-osx_management'
-version '0.2.0'
+version '0.2.1'
 source 'http://forge.puppetlabs.com/glarizza/osx_management'
 author 'Chris Barker and Gary Larizza'
 license 'Apache License, Version 2.0'
@@ -8,6 +8,7 @@ description 'Module used to demonstrate various OS X management tasks with Puppe
 project_page 'http://forge.puppetlabs.com/glarizza/osx_management'
 
 ## Add dependencies, if any:
+dependency 'glarizza/pick', '>= 0.0.1'
 dependency 'glarizza/property_list_key', '>= 0.0.1'
 dependency 'mosen/cups', '>= 1.0.0'
 dependency 'puppetlabs/apache', '>= 0.4.0'
