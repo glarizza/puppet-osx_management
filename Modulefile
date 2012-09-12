@@ -8,7 +8,7 @@ description 'Module used to demonstrate various OS X management tasks with Puppe
 project_page 'http://forge.puppetlabs.com/glarizza/osx_management'
 
 ## Add dependencies, if any:
-dependency 'glarizza/property_list_key', >= '0.0.1'
+dependency 'glarizza/property_list_key', '>= 0.0.1'
 dependency 'mosen/cups', '>= 1.0.0'
 dependency 'puppetlabs/apache', '>= 0.4.0'
 dependency 'puppetlabs/vcsrepo', '>= 0.0.4'
